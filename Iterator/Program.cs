@@ -10,6 +10,19 @@ namespace Iterator
         {
         static void Main (string[] args)
             {
+            BrowserHistory browserHistory = new BrowserHistory();
+            browserHistory.push("chatgpt");
+            browserHistory.push("AI");
+            browserHistory.push("google");
+
+            var urlIterator = browserHistory.CreateIterator();
+
+            while (urlIterator.HasNext())
+                {
+                Console.WriteLine(urlIterator.Current());
+                urlIterator.Next();
+                }
+
             }
         }
     }
