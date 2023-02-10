@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlackAndWhiteFilter.cs" />
     <Compile Include="Compressor.cs" />
+    <Compile Include="Filter.cs" />
+    <Compile Include="HighContrastFilter.cs" />
     <Compile Include="JpegCompressor.cs" />
     <Compile Include="PngCompressor.cs" />
     <Compile Include="Program.cs" />
