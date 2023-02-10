@@ -10,6 +10,11 @@ namespace Strategy
         {
         static void Main (string[] args)
             {
+            Console.WriteLine("Strategy Behavioral Design Pattern: Encapsulate an algorithm inside the class");
+
+            ImageStorage imageStorage = new ImageStorage();
+
+            imageStorage.Store("xyz", new PngCompressor(), new BlackAndWhiteFilter());
             }
         }
     }
