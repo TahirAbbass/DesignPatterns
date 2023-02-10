@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{4CAA22C4-D7F7-48A3-ABDC-B7B67655A236}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{83FA7408-A914-46DD-9688-38F57BAEF780}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4CAA22C4-D7F7-48A3-ABDC-B7B67655A236}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CAA22C4-D7F7-48A3-ABDC-B7B67655A236}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CAA22C4-D7F7-48A3-ABDC-B7B67655A236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83FA7408-A914-46DD-9688-38F57BAEF780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83FA7408-A914-46DD-9688-38F57BAEF780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83FA7408-A914-46DD-9688-38F57BAEF780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83FA7408-A914-46DD-9688-38F57BAEF780}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
