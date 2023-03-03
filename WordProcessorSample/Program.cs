@@ -12,7 +12,7 @@ namespace WordProcessorSample
             {
             WordProcessor processor = new WordProcessor();
 
-            string str = "this is first line";
+            string str = "Line to be Added";
             processor.AddLine(str);
 
             byte[] byt = new byte[str.Length];

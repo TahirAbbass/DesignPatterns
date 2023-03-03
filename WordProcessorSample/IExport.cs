@@ -15,7 +15,8 @@ namespace WordProcessorSample
         {
         public void Export (IDocument document)
             {
-            Console.WriteLine("\n Exporting Data in HTML format:");
+            Console.WriteLine("\n Exporting text & Image Data in HTML format:");
+
             //fetch text and images to export
             List<string> lines = document.GetLines();
             foreach (var li in lines)
@@ -38,7 +39,7 @@ namespace WordProcessorSample
         {
         public void Export (IDocument document)
             {
-            Console.WriteLine("\n Exporting in Text format");
+            Console.WriteLine("\n Exporting text in Text format");
             //fetch only txt to export
             List<string> lines = document.GetLines();
             foreach (var li in lines)

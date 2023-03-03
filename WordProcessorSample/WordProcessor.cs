@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WordProcessorSample
     {
-    enum  ExportFormat
-        {
-        TXT,
-        HTML
-        }
+    //enum  ExportFormat
+    //    {
+    //    TXT,
+    //    HTML
+    //    }
 
     interface IDocument
         {
@@ -23,7 +23,6 @@ namespace WordProcessorSample
 
     class WordProcessor : IDocument
         {
-
         private List<string> Lines = new List<string>();
         private List<byte[]> Images = new List<byte[]>();
 
