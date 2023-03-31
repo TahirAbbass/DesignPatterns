@@ -6,23 +6,36 @@ using System.Threading.Tasks;
 
 namespace WordProcessorBuilderPattern
     {
-    class Document
+/*    interface IPage
         {
-        private List<(string, string)> elements = new List<(string, string)>();
+        
+        }*/
+
+    interface IDocument
+        {
+        void AddText (string line);
+        void AddImage (string img);
+        List<(string, string)> GetElements ();
+        }
+
+    class Document : IDocument
+        {
+
+        private List<(string, string)> Elements = new List<(string, string)>();
 
         public void AddText (string text)
             {
-            elements.Add(("text", text));
+            Elements.Add(("text", text));
             }
 
         public void AddImage (string image)
             {
-            elements.Add(("image", image));
+            Elements.Add(("image", image));
             }
 
         public List<(string, string)> GetElements ()
             {
-            return elements;
+            return Elements;
             }
         }
     }

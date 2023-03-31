@@ -1,0 +1,5 @@
+﻿You’re building a word processor similar to Word. The user can add text or 
+image elements to a document and then export it to a variety of different 
+formats such as HTML, text, and so on. Note that if the selected format is HTML, all text and image elements are 
+written to an HTML document. If the selected format is text, however, only 
+text elements are written to a text file. What pattern you will use to solve this problem? and why?

@@ -42,10 +42,8 @@ namespace WordProcessorBuilderPattern
                 string result = builder.GetResult();
                 return result;
                 }
-            else
-                {
-                throw new ArgumentException($"Unsupported format: {format}");
-                }
+
+            return null;
             }
         }
     }

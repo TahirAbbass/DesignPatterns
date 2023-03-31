@@ -44,7 +44,7 @@ namespace WordProcessorBuilderPattern
 
         public override void AddImage (string image)
             {
-            // do nothing, text only
+
             }
 
         public override string GetResult ()
